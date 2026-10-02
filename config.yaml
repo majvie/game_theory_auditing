@@ -1,0 +1,34 @@
+# Overall Config
+verbose: False
+
+# Game Config Parameters
+maximum_trust_state: 10
+lambda_trust: 0.1
+max_time: 100
+
+# Platform Config Parameters
+n_platforms: 1
+n_customers: 100
+n_products: 100
+benefit_affiliated: 2.5
+benefit_non_affiliated: 1.5
+customer_decay: 0.2
+wtp_affiliated: 10
+wtp_affiliated_var: 0.2
+price_affiliated: 8
+wtp_non_affiliated: 10
+wtp_non_affiliated_var: 0.2
+price_non_affiliated: 8
+discount_factor_platform: 0.8
+strength:
+  one: 1
+  two: 2
+  three: 3
+  four: 4
+
+# Regulator Config Parameters
+discount_factor_regulator: 0.8
+cost_audit: 1
+fine_per_infraction: 10
+probability_audit: 0.8
+fraction_reviewed: 0.1
